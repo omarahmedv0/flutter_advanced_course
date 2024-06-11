@@ -31,7 +31,14 @@ class TextStyles {
     return TextStyle(
       fontSize: 13.sp,
       fontWeight: FontWeight.normal,
-      color: ColorsManager.grey,
+      color: ColorsManager.gray,
     );
   }
+
+   static TextStyle font14LightGrayRegular ()=> TextStyle(
+    fontSize: 14.sp,
+    fontWeight: FontWeight.normal,
+    color: ColorsManager.lightGray,
+  );
+
 }
